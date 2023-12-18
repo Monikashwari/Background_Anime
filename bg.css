@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(90deg, hsla(0, 83%, 47%, 1) 0%, hsla(248, 83%, 82%, 1) 51%, hsla(324, 75%, 85%, 1) 79%);
+    width: 100vw;
+    height: 100vh;
+    background-size: 400%;
+    animation: mons 2s linear infinite;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes mons {
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 100%;
+    }
+    100%{
+        background-position: 0%;
+    }
+    
+}
+
+.card{
+    height: 300px;
+    width: 650px;
+    background-color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding: 100px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
